@@ -4,7 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            System.Console.WriteLine("PLEASE");
+            var x = "test";
+            x += "lol";
+            System.Console.WriteLine(x);
         }
     }
 }
